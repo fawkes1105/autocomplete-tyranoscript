@@ -5,7 +5,7 @@
 'name': 'TyranoScript'
 'patterns': [
   {
-    'begin': '^;'
+    'begin': '^[\\t\\s]*;'
     'end': '$'
     'name': 'comment.line.ks'
   }
